@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to bottom, #2193b0, #6dd5ed);
+    font-family: 'Georgia', serif;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+button, .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .back-button:hover {
+    background-color: #0056b3;
+}
+
+button:active, .back-button:active {
+    background-color: #003f7f;
+}
+
+/* Galeri */
+.gallery {
+    text-align: center;
+}
+.gallery-slide {
+    display: none;
+}
+.gallery-slide img {
+    max-width: 100%;
+    height: auto;
+}

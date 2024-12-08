@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+button, .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .back-button:hover {
+    background-color: #0056b3;
+}
+
+button:active, .back-button:active {
+    background-color: #003f7f;
+}
